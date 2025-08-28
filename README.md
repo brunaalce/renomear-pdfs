@@ -81,3 +81,15 @@ Nº da OC: 12345
 Se encontrado, o nome do arquivo será algo como:
 
 OC_12345__Primeira_Linha_do_PDF.pdf
+
+
+
+## Observações
+
+PDFs abertos no Adobe ou visualizador não podem ser renomeados. Feche-os antes de rodar o script.
+
+PDFs protegidos por senha serão ignorados.
+
+Caracteres inválidos (<>:"/\|?*) são automaticamente removidos.
+
+Se o nome do arquivo já existir, o script adiciona _1, _2 para evitar sobrescrever.
